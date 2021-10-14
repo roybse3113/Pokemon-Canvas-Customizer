@@ -1,0 +1,26 @@
+{
+  "name": "pokemon-map-builder",
+  "version": "1.0.0",
+  "description": "CIS 197 HW4: Pokemon Map Builder",
+  "author": "CIS 197 Staff <cbaile@seas.upenn.edu>",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "lint": "node ./scripts/lint",
+    "zip": "node ./scripts/zip"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4 || ^3 || ^2.3.0 || ^1.7.0",
+    "grunt": "^0.4.5"
+  },
+  "dependencies": {
+    "archiver": "^3.1.1",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "react": "^17.0.2"
+  }
+}
